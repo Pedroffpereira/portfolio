@@ -1,0 +1,103 @@
+.modal-header {
+    border: none;
+}
+
+.modal.fade.show {
+    display: flex !important;
+}
+
+.modal-dialog {
+    margin: auto;
+}
+
+.modal-content {
+    border-radius: 0rem;
+}
+
+.card-body a {
+    background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+}
+.card-body a:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+}
+
+.card-body .underline {
+    padding-bottom: 2px;
+    --bg-h: 2px;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+}
+
+header {
+    /*background-image: url("../imgs/header.webp");*/
+    height: 100vh;
+    background-position: bottom right;
+}
+body {
+    /*background-color: #3a3a3a;
+    color: #d4d4d4 !important;*/
+}
+nav {
+    /*color: #d4d4d4;*/
+}
+
+.background {
+    position: absolute;
+
+    display: block;
+    height: auto;
+    width: 100%;
+    top: 0;
+
+    left: 0;
+
+    z-index: -1;
+}
+nav {
+    
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    transition-duration: 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s;
+    transition-property: color, background-color, border-color;
+}
+nav.down {
+    background-color: #000;
+}
+nav.down .nav-link,
+nav.down .navbar-brand {
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    transition-duration: 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s, 0s;
+    transition-property: color, background-color, border-color;
+    color: #D7D7D7 !important;
+}
+footer {
+    color: #D7D7D7 !important;
+    background-color: #000;
+
+}
+footer a {
+    color: #D7D7D7 !important;
+}
+
+#jobs {
+    
+    color: #D7D7D7 !important;
+    background-color: #000;
+}
+
+header img {    
+    height: 130px;
+    width: 130px;
+    border-radius: 130px;
+    border: 1px solid black;
+}
