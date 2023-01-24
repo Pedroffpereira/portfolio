@@ -55,6 +55,9 @@
 #jobs img {
     width: 100%;
 }
+a {
+    cursor: pointer;
+}
 #interests img {
     padding: 10px;
     height: 75px;
