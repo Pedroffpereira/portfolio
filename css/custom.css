@@ -33,7 +33,7 @@
 }
 
 .card-body a {
-    background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
+    background: linear-gradient(0deg, #2A272A , #2A272A ) no-repeat right bottom / 0 var(--bg-h);
     transition: background-size 350ms;
     --bg-h: 100%;
 }
@@ -52,7 +52,13 @@
     color: inherit;
     line-height: 1;
 }
-
+#jobs img {
+    width: 100%;
+}
+#interests img {
+    padding: 10px;
+    height: 75px;
+}
 header {
     /*background-image: url("../imgs/header.webp");*/
     height: 100vh;
@@ -62,9 +68,32 @@ header {
 body {
     /*background-color: #3a3a3a;
     color: #d4d4d4 !important;*/
+    overflow-x: hidden !important;
+    font-size: 1.2rem;
+}
+html{
+    
+    scroll-behavior: smooth;
 }
 nav {
-    /*color: #d4d4d4;*/
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.75) 35%, rgba(255,255,255,0.5) 100%);
+}
+
+.modal-title {
+    text-transform: uppercase;
+}
+a {
+    color: inherit;
+}
+footer .col-md-4 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.bg-primary {
+    color: #D7D7D7 !important;
+    background-color: #2A272A !important;
 }
 
 .background {
@@ -88,7 +117,12 @@ nav {
     transition-property: color, background-color, border-color;
 }
 nav.down {
-    background-color: #2A272A;
+    background: none;
+    background-color: #2A272A !important;
+}
+
+nav.down .navbar-toggler-icon {
+    filter: brightness(100);
 }
 nav.down .nav-link,
 nav.down .navbar-brand {
@@ -126,10 +160,6 @@ header img {
 
 .text-justify {
     text-align: justify;
-}
-
-.imgs img {
-    width: 100px;
 }
 .ring
 {
@@ -212,3 +242,40 @@ header img {
     transform:rotate(405deg);
   }
 }
+
+
+
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+
+.fa-chevron-down:hover{
+    color: #212529;
+}
+.fa-chevron-down {
+    color: #212529;
+    position: relative;
+    animation: jumpInfinite 1.5s infinite;
+  }
+
+@keyframes jumpInfinite {
+    0% {
+        bottom: 0;
+    }
+    50% {
+      bottom: 10px;
+    }
+    100% {
+        bottom: 0;
+    }
+  }
+@media (max-width: 768px){
+    .down .navbar-toggler {
+        color: #D7D7D7 ;
+    }
+    nav {
+        background: #fff;
+    }
+  }

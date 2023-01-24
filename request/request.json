@@ -1,0 +1,102 @@
+[
+    {
+        "title": "php",
+        "img": "./imgs/php.png",
+        "text": "PHP é uma linguagem de script de uso geral voltada para o desenvolvimento da web."
+    },
+    {
+        "title": "c#",
+        "img": "./imgs/csharp.png",
+        "text": "C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, como Object Pascal e, principalmente, Java."
+    },
+    {
+        "title": "javascript",
+        "img": "./imgs/js.png",
+        "text": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web."
+    },
+    {
+        "title": "c++",
+        "img": "./imgs/c++.png",
+        "text": "C++ é uma linguagem de programação compilada multi-paradigma e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores."
+    },
+    {
+        "title": "rust",
+        "img": "./imgs/rust.png",
+        "text": "Rust é uma linguagem de programação multiparadigma compilada desenvolvida pela Mozilla Research. É projetada para ser segura, concorrente e prática, mas diferente de outras linguagens seguras, Rust não usa coletor de lixo. Possui suporte nativo ao WebAssembly. "
+    },
+    {
+        "title": "laravel",
+        "img": "./imgs/laravel.png",
+        "text": "Laravel é um framework PHP livre e open-source criado por Taylor B. Otwell para o desenvolvimento de sistemas web que utilizam o padrão MVC (model, view, controller). Algumas características proeminentes do Laravel são sua sintaxe simples e concisa, um sistema modular com gerenciador de dependências dedicado, várias formas de acesso a banco de dados relacionais e vários utilitários indispensáveis no auxílio ao desenvolvimento e manutenção de sistemas.  "
+    },
+    {
+        "title": ".net",
+        "img": "./imgs/php.php",
+        "text": "O .NET Framework é uma iniciativa da empresa Microsoft, que visa uma plataforma única para desenvolvimento e execução de sistemas e aplicações. Todo e qualquer código gerado para .NET pode ser executado em qualquer dispositivo que possua um framework de tal plataforma."
+    },
+    {
+        "title": "nuxtjs",
+        "img": "./imgs/nuxtjs.png",
+        "text": "Nuxt.js é um framework para aplicações web de código aberto baseado em Vue.js, Node.js, Webpack and Babel.js. O framework foi inspirado pelo Next.js que é um framework com propósito similar porém baseado em React."
+    },
+    {
+        "title": "react",
+        "img": "./imgs/react.png",
+        "text": "O React (também denominado React.js ou ReactJS) é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web."
+    },
+    {
+        "title": "bootstrap",
+        "img": "./imgs/bootstrap.png",
+        "text": "Bootstrap é um framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web, usando HTML, CSS e JavaScript, baseado em modelos de design para a tipografia, melhorando a experiência do usuário em um site amigável e responsivo."
+    },
+    {
+        "title": "virtualbox",
+        "img": "./imgs/virtualbox.png",
+        "text": "VirtualBox é um software de virtualização desenvolvido pela empresa Innotek depois comprado pela Sun Microsystems que posteriormente foi comprada pela Oracle que, como o VMware Workstation, visa criar ambientes para instalação de sistemas distintos."
+    },
+    {
+        "title": "docker",
+        "img": "./imgs/docker.png",
+        "text": "Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração."
+    },
+    {
+        "title": "mysql",
+        "img": "./imgs/mysql.png",
+        "text": "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo."
+    },
+    {
+        "title": "json",
+        "img": "./imgs/json.png",
+        "text": "Em computação, JSON, um acrônimo de JavaScript Object Notation, é um formato compacto, de padrão aberto independente, de troca de dados simples e rápida entre sistemas, especificado por Douglas Crockford em 2000, que utiliza texto legível a humanos, no formato atributo-valor."
+    },
+    {
+        "title": "wireshark",
+        "img": "./imgs/wireshark.png",
+        "text": "O Wireshark é um programa que analisa o tráfego de rede, e o organiza por protocolos. As funcionalidades do Wireshark são parecidas com o tcpdump mas com uma interface gráfica, com mais informação e com a possibilidade da utilização de filtros."
+    },
+    {
+        "title": "windows",
+        "img": "./imgs/windows.png",
+        "text": "Microsoft Windows é uma família de sistemas operacionais desenvolvidos, comercializados e vendidos pela Microsoft."
+    },
+    {
+        "title": "mint",
+        "img": "./imgs/mint.png",
+        "text": "Linux Mint é uma distribuição Linux irlandesa. Possui duas versões: uma baseada em Ubuntu e outra versão baseada em Debian. Suporta muitos idiomas, incluindo a língua portuguesa, e utiliza o Cinnamon como seu principal ambiente de desktop."
+    },
+    {
+        "title": "debian",
+        "img": "./imgs/debian.png",
+        "text": "Debian, anteriormente chamado Debian GNU/Linux e hoje apenas Debian, é um sistema operacional composto inteiramente de software livre e mantido oficialmente pelo Projeto Debian. O projeto recebe, ainda, apoio de outros indivíduos e organizações de todo o mundo."
+    },
+    {
+        "title": "kali",
+        "img": "./imgs/kali.png",
+        "text": "Kali Linux é uma distribuição GNU/Linux baseada no Debian, considerado o sucessor do Back Track. O projeto apresenta várias melhorias, além de mais aplicativos. É voltado principalmente para auditoria e segurança de computadores em geral. É desenvolvido e mantido pela Offensive Security Ltd."
+    },
+    {
+        "title": "ubunto",
+        "img": "./imgs/ubunto.png",
+        "text": "Ubuntu é um sistema operacional ou sistema operativo de código aberto, construído a partir do núcleo Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo. Esta distribuição Linux é desenvolvida pela Canonical Ltd."
+    }
+]

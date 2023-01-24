@@ -9,37 +9,32 @@
     <link rel="stylesheet" href="./css/custom.css" />
     <link href="./fonts/fontawesome/css/all.min.css" rel="stylesheet" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link
-    rel="stylesheet"
-    href="./css/animate.css">
+    <link rel="stylesheet" href="./css/animate.css" />
   </head>
   <body>
     <nav id="nav" class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Pedro Pereira</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span >
+
+            <i class="fa-solid fa-bars"></i>
+          </span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarText">
+
           <ul class="navbar-nav ms-md-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
+              <a class="nav-link" href="#interests"
+                >Sobre</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#jobs">Experiência</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#projects">
+                Tecnologias</a>
             </li>
           </ul>
         </div>
@@ -48,226 +43,476 @@
     </nav>
     <header>
       <div class="container h-100 d-flex flex-wrap">
-          <div class=" mx-auto mt-auto text-center w-100">
-            <div>
-              <img src="./imgs/pedro.png" alt="">
-            </div>
-            <h2>Pedro <span>Pereira</span> </h2>
-            
-            <a href="" class="btn"><i class="fa-brands fa-github"></i> GitHub</a>
+        <div class="mx-auto mt-auto text-center w-100">
+          <div>
+            <img src="./imgs/pedro.png" alt="" />
           </div>
-          <div class="mx-auto mt-auto"><i class="fa-solid fa-chevron-down"></i>
-          </div>
+          <h2>Pedro <span>Pereira</span></h2>
+
+          <a href="https://github.com/Pedroffpereira" target="_blank" class="btn"><i class="fa-brands fa-github"></i> GitHub</a>
+        </div>
+        <div class="mx-auto mt-auto">
+          <a href="#interests">
+          <i class="fa-solid fa-chevron-down"></i>
+        </a>
+        </div>
       </div>
-      <canvas class=
-"background"
-></canvas>
+      <canvas class="background"></canvas>
     </header>
     <main>
-      <div id="interests" class="my-5">
+      <div class="my-5">
+      <div id="interests" >
         <div class="container py-5">
-          <h2 class="text-center">Áreas de interesse</h2>
-          <div class="row">
+          <h2 class="text-center">Sobre</h2>
+          
+          <div class="row py-5">
             <div class="col-md-8">
               <p class="text-justify">
-                Como desenvolvemos tenho vários interesse pessoais e profissionais, a onde faço projetos inspirado nessa tecnologia:
-                <ul>
-                  <li>
-                    Areas de segurança a onde treino e pesquiso no TryHackMe, no HacktheBox e em outros sites.</li>
-                    <li>
-                      Desenvolvimento em aplicações descentralizadas.</li>
-                      <li>
-                        Manter e Desenvolver um servidor pessoal.</li>
-                        <li>
-                          Desenvolvimento Mobile/Softwere e de jogos de computador.</li>
-                </ul>
+                Sou o Pedro Pereira sou desenvolvedor WEB mas no inicio fazia aplicações em .Net(C#) nos estágios e gostava de experimentar desenvolvimento Mobile.
+              </p>
+              <p class="text-justify">
+                No ramo de desenvolvimento Web sou Fullstack em linguagens.
+                <br>
+                As ferramentas Backend que uso são PHP e sua Framework(Laravel), Mysql para base de dados relacionais. 
+                <br>
+                As ferramentas Frontend que uso são Html, Css e algumas livrarias(Bootstrap), Javascript e algumas liberarias(JQUERY, Veu.js) algumas Frameworks(Nuxtjs).
+                <br>
+                No requisito de cyber aprendi um pouco no tempo livre nos sites <a href="">TryHackMe</a> e <a href="">HacktheBox</a>.
+              <p class="text-justify">
+                Como desenvolvemos tenho vários interesse pessoais e
+                profissionais, a onde faço projetos inspirado nessa tecnologia:
               </p>
             </div>
             <div class="col-md-4 imgs">
-              <img src="./imgs/nmap.png" alt="">
-              <img src="./imgs/react.png" alt="">
-              <img src="./imgs/xamarim.png" alt="">
+                <img src="./imgs/nmap.png" alt="" />
+                <img src="./imgs/react.png" alt="" />
+                <img src="./imgs/xamarim.png" alt="" />
+                <img src="./imgs/csharp.png" alt="">
+                <img src="./imgs/notion.png" alt="">
+                <img src="./imgs/vs.png" alt="">
+                <img src="./imgs/docker.png" alt="">
+                <img src="./imgs/kali.png" alt="">
+                <img src="./imgs/linux.png" alt="">
+                <img src="./imgs/mysql.png" alt="">
+                <img src="./imgs/php.png" alt="">
+                <img src="./imgs/git.png" alt="">
             </div>
           </div>
         </div>
-        </div>
-        <div id="jobs" class="my-5">
-          <div class="container py-5">
-            <h2 class="text-center">Experiências de Trabalho</h2>
+      </div>
+    </div>
+      <div id="jobs" class="my-5">
+        <div class="container py-5">
+          <h2 class="text-center">Experiências de Trabalho</h2>
 
-            <div class="col-md-5 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
-              <h3>04/2018 a 6/2018</h3>
-              <h4>Best Id</h3>
-                
-              <p class="text-justify">
-                No segundo ano de estagio do curso de programação da Fontes Pereira de Melo, em que trabalhei com uma Framework de C#(.NET) a onde fiz uma aplicação para maquinas de venda em eventos.
-              </p>
-              <p class="text-justify">
-                "A Best Id é um inovador laboratório tecnológico focado no desenvolvimento de soluções que aliam tecnologia à funcionalidade.
-                <br>
-                A nossa abordagem é pioneira pela forma em que utilizamos a tecnologia mais recente na criação de soluções e equipamentos diferenciadores."
-              </p>
+          <div class="row py-md-5">
+            <div class="col-md-5 d-md-none d-flex wow slideInRight"
+            data-wow-duration="1s"
+            >
+              <img src="./imgs/bestid.png" alt="" class="my-md-auto my-4" />
             </div>
-          <div class="row">
-            <div class="col-md-3">
-              <img src="./imgs/aiccopn.svg" alt="">
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-5 wow slideInRight" data-wow-duration="2s" data-wow-delay="1s">
+            <div
+              class="col-md-5 d-flex wow slideInLeft"
+              data-wow-duration="1s"
+              
+            >
+            <div class="my-auto">
               <h3>04/2018 a 6/2018</h3>
-              <h4>AICCOPN</h3>
+              <h4>Best Id</h4>
+
               <p class="text-justify">
-                No segundo ano de estagio do curso de programação da Fontes Pereira de Melo, em que experimentei um pouco com uma FrameWork de PHP(Laravel) e VirtualBox para fazer a hospedagem do site. <br>
-                E na parte final do estagio com pedido da area de economista trabalhei numa aplicação em C#(.NET) uma calculador de rendas.
+                No segundo ano de estagio do curso de programação da Fontes
+                Pereira de Melo, em que trabalhei com uma Framework de C#(.NET)
+                a onde fiz uma aplicação para maquinas de venda em eventos.
               </p>
               <p class="text-justify">
-                "A AICCOPN – Associação dos Industriais da Construção Civil e Obras Públicas é uma Associação de classe, de âmbito nacional, que representa atualmente um universo de +6.000 Empresas que integram o Setor da Construção e áreas de atividade conexas."
+                "A Best Id é um inovador laboratório tecnológico focado no
+                desenvolvimento de soluções que aliam tecnologia à
+                funcionalidade.
+                <br />
+                A nossa abordagem é pioneira pela forma em que utilizamos a
+                tecnologia mais recente na criação de soluções e equipamentos
+                diferenciadores."
               </p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-5 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+            <div class="col-md-2  d-md-flex d-none "></div>
+            <div class="col-md-5 d-md-flex d-none wow slideInRight"
+            data-wow-duration="1s"
+            >
+              <img src="./imgs/bestid.png" alt="" class="my-md-auto my-4" />
+            </div>
+          </div>
+          <div class="row py-md-5">
+            <div class="col-md-5 d-flex wow slideInLeft"
+            data-wow-duration="1s"
+            >
+              <img src="./imgs/aiccopn.svg" alt="" class="my-md-auto my-4" />
+            </div>
+            <div class="col-md-2"></div>
+            <div
+              class="col-md-5 d-flex wow slideInRight"
+              data-wow-duration="1s"
+              
+            >
+            <div class="my-auto">
+              <h3>04/2018 a 6/2018</h3>
+              <h4>AICCOPN</h4>
+              <p class="text-justify">
+                No segundo ano de estagio do curso de programação da Fontes
+                Pereira de Melo, em que experimentei um pouco com uma FrameWork
+                de PHP(Laravel) e VirtualBox para fazer a hospedagem do site.
+                <br />
+                E na parte final do estagio com pedido da area de economista
+                trabalhei numa aplicação em C#(.NET) uma calculador de rendas.
+              </p>
+              <p class="text-justify">
+                "A AICCOPN – Associação dos Industriais da Construção Civil e
+                Obras Públicas é uma Associação de classe, de âmbito nacional,
+                que representa atualmente um universo de +6.000 Empresas que
+                integram o Setor da Construção e áreas de atividade conexas."
+              </p>
+            </div>
+          </div>
+          </div>
+          <div class="row py-md-5">
+            <div class="col-md-5 d-md-none d-flex wow slideInRight"
+            data-wow-duration="1s"
+            >
+              <img src="./imgs/bizview.svg" alt=""  class="my-md-auto my-4" />
+            </div>
+            <div
+              class="col-md-5 d-flex wow slideInLeft"
+              data-wow-duration="1s"
+              
+            >
+            <div class="my-auto">
               <h3>10/2019 a 3/2020</h3>
-              <h4>Bizview</h3>
+              <h4>Bizview</h4>
               <p>
-                Trabalhei na area WEB em manutenção do Websites em ambas as partes Backend e Frontend com tecnologia (Sass, Bootstrap, HTML, PHP, Laravel, MYSQL e um pouco de PrestoShop).
-             
+                Trabalhei na area WEB em manutenção do Websites em ambas as
+                partes Backend e Frontend com tecnologia (Sass, Bootstrap, HTML,
+                PHP, Laravel, MYSQL e um pouco de PrestoShop).
               </p>
               <p class="text-justify">
-                "A bizview é uma empresa vocacionada para a prestação de serviços nas áreas dos sistemas e tecnologias de informação, bem como comunicação gráfica e multimédia."
+                "A bizview é uma empresa vocacionada para a prestação de
+                serviços nas áreas dos sistemas e tecnologias de informação, bem
+                como comunicação gráfica e multimédia."
               </p>
             </div>
-            <div class="col-md-4"></div>
-            
-            
-            <div class="col-md-3">
-              <img src="./imgs/bizview.svg" alt="">
-            </div>
           </div>
-          <div class="row">
-            <div class="col-md-3">
-              <img src="./imgs/webhouse.png" alt="">
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-5  wow slideInRight" data-wow-duration="2s" data-wow-delay="1s">
-              <h3>10/2020 a 5/2022</h3>
-              <h4>WebHouse</h3>
-                <p>
+            <div class="col-md-2"></div>
 
-                </p>
-                <p>
-                  Comunicar uma marca na web requer estratégia, experiência e a melhor orientação.
-A Webhouse é o parceiro criativo, inovador e vanguardista nos serviços e nas pessoas que fazem das suas ideias, os nossos projetos. Um parceiro competente que lhe garante uma estratégia bem sucedida na web.
-                </p>
+            <div class="col-md-5 d-md-flex d-none wow slideInRight"
+            data-wow-duration="1s"
+            >
+              <img src="./imgs/bizview.svg" alt=""  class="my-auto" />
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-5 wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s">
+          <div class="row py-md-5">
+            <div class="col-md-5 d-flex wow slideInLeft"
+            data-wow-duration="1s"
+            >
+              <img src="./imgs/webhouse.png" alt="" class="my-md-auto my-4" />
+            </div>
+            <div class="col-md-2"></div>
+            <div
+              class="col-md-5 d-flex wow slideInRight"
+              data-wow-duration="1s"
+              
+            >
+            <div class="my-auto">
+              <h3>10/2020 a 5/2022</h3>
+              <h4>WebHouse</h4>
+              <p>
+                Este foi a empresa a onde estive mais tempo a onde trabalhava com muitas tecnologia para desenvolmento WEB como Frameworks como Nuxtjs, Bootstrap, Laravel, desenvolvimento de base de dados e a sua manutenção.
+                <br>
+                No dia dia fazia o desenvolvimento de site e a sua manutenção. 
+              </p>
+              <p>
+                Comunicar uma marca na web requer estratégia, experiência e a
+                melhor orientação. A Webhouse é o parceiro criativo, inovador e
+                vanguardista nos serviços e nas pessoas que fazem das suas
+                ideias, os nossos projetos. Um parceiro competente que lhe
+                garante uma estratégia bem sucedida na web.
+              </p>
+            </div>
+            </div>
+          </div>
+          <div class="row py-md-5">
+
+            <div class="col-md-5 d-md-none d-flex  wow slideInRight"
+            data-wow-duration="1s"
+            >
+              <img src="./imgs/optiges.png" class="my-md-auto my-4" alt="" />
+            </div>
+            <div
+              class="col-md-5 d-flex wow slideInLeft"
+              data-wow-duration="1s"
+              
+            >
+            <div class="my-auto">
               <h3>5/2022 Atualmente</h3>
-              <h4>Optigest</h3>
-                <p>Neste trabalho que estou atualmente faço manutenção e algum desenvolvimento de WebSites ligados ao turismo e seus Backoffice a ondo utilizo PHP e MYSQL para a base de dados e para a utilização de APIs utilizamos WSDL(Soap) </p>
-                <p>"A Optigest tem como missão auxiliar os atores da atividade turística a optimizar o seu negócio recorrendo a tecnologias de informação"</p>
+              <h4>Optigest</h4>
+              <p>
+                Neste trabalho que estou atualmente faço manutenção e algum
+                desenvolvimento de WebSites ligados ao turismo e seus Backoffice
+                a ondo utilizo PHP e MYSQL para a base de dados e para a
+                utilização de APIs utilizamos WSDL(Soap)
+              </p>
+              <p>
+                "A Optigest tem como missão auxiliar os atores da atividade
+                turística a optimizar o seu negócio recorrendo a tecnologias de
+                informação"
+              </p>
             </div>
-          
-          <div class="col-md-4"></div>
-          <div class="col-md-3">
-            <img src="./imgs/optiges.png" alt="">
+            </div>
+
+            <div class="col-md-2"></div>
+            <div class="col-md-5 d-md-flex d-none  wow slideInRight"
+            data-wow-duration="1s"
+            >
+              <img src="./imgs/optiges.png" class="my-auto" alt="" />
+            </div>
           </div>
-          
         </div>
-        </div>
-        </div>
-        </div>
+      </div>
+
         <div id="knolage">
           <div class="container">
-          <h2 class="text-center">Tecnologias Encontradas/Estudadas</h2>
-          <div class="row">
-            <div class="col-md-3">
-              <div class="card my-5">
-                <div class="card-header bg-primary text-center">
-                  Linguagens de programação
-                </div>
-                <div class="card-body">
-                  <ul class="list-unstyled">
-                    <li><i class="fa-solid fa-check"></i> PHP</li>
-
-                    <li><i class="fa-solid fa-check"></i> C#</li>
-
-                    <li><i class="fa-solid fa-check"></i> Javascript</li>
-
-                    <li><i class="fa-solid fa-check"></i> C++</li>
-
-                    <li><i class="fa-solid fa-check"></i> Rust</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card my-5">
-                <div class="card-header bg-primary text-center">Frameworks</div>
-                <div class="card-body">
-                  <ul class="list-unstyled">
-                    <li>
-                      <a
-                        href="#"
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop"
+            <h2 class="text-center">Tecnologias Encontradas/Estudadas</h2>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card my-md-5 my-4">
+                  <div class="card-header bg-primary text-center">
+                    Programação
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a
                         class="underline"
-                      >
-                        <i class="fa-solid fa-check"></i> Laravel
+                        id="php"
+                        >
+                        <i class="fa-solid fa-check"></i> PHP
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                        id="c#"
+                        class="underline"
+                        >
+                        <i class="fa-solid fa-check"></i> C#
+                        </a>
+                      </li>
+
+                      <li>
+                        
+                        <a
+                        id="javascript"
+                          class="underline"
+                        >
+                        <i class="fa-solid fa-check"></i> Javascript
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                        id="c++"
+                          class="underline"
+                        >
+                        <i class="fa-solid fa-check"></i> C++
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                        id="rust"
+                          class="underline"
+                        >
+                        <i class="fa-solid fa-check"></i> Rust
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card my-md-5 my-4">
+                  <div class="card-header bg-primary text-center">
+                    Frameworks
+                  </div>
+                  <div class="card-body h-100">
+                    <ul class="list-unstyled">
+                      <li>
+                        <a
+                        id="laravel"
+                          class="underline"
+                        >
+                          <i class="fa-solid fa-check"></i> Laravel
+                        </a>
+                      </li>
+
+                      <li>
+                        
+                        <a
+                        id=".net"
+                          class="underline"
+                        >
+                        <i class="fa-solid fa-check"></i> .Net
+                        </a>  
+                      </li>
+
+                      <li>
+                        
+                        <a
+                        id="nuxtjs"
+                          class="underline"
+                        >                        
+                        <i class="fa-solid fa-check"></i> NuxtJS
+                        </a>
+                      </li>
+
+                      <li>
+                        
+                        <a
+                        id="bootstrap"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> Bootstrap
+                      </a>  </li>
+                      <li>
+                        
+                        <a
+                        id="react"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> React
+                      </a>  </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card my-md-5 my-4">
+                  <div class="card-header bg-primary text-center">Softwere</div>
+                  <div class="card-body">
+                    <ul class="list-unstyled">
+                      <li>
+                        
+                        <a
+                        id="virtualbox"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> VirtualBox
                       </a>
-                    </li>
+                      </li>
 
-                    <li><i class="fa-solid fa-check"></i> .Net</li>
+                      <li>
+                        
+                        <a
+                        id="docker"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> Docker
+                      </a>
+                      </li>
 
-                    <li><i class="fa-solid fa-check"></i> NuxtJS</li>
+                      <li>
+                        
+                        <a
+                        id="json"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> JSON
+                      </a>
+                      </li>
 
-                    <li><i class="fa-solid fa-check"></i> Bootstrap</li>
-
-                    <li><i class="fa-solid fa-check"></i> Rust</li>
-                  </ul>
+                      <li>
+                        
+                        <a
+                        id="mysql"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> Mysql
+                      
+                      </a></li>
+                      <li>
+                        
+                        <a
+                        id="wireshark"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> WireShark
+                      </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card my-5">
-                <div class="card-header bg-primary text-center">Softwere</div>
-                <div class="card-body">
-                  <ul class="list-unstyled">
-                    <li><i class="fa-solid fa-check"></i> VirtualBox</li>
+              <div class="col-md-3">
+                <div class="card my-md-5 my-4">
+                  <div class="card-header bg-primary text-center">
+                    Sistemas Operativos
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-unstyled">
+                      <li>
+                        
+                        <a
+                        id="windows"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> Windows
+                        </a>
+                      </li>
 
-                    <li><i class="fa-solid fa-check"></i> Docker</li>
+                      <li>
+                        
+                        <a
+                        id="mint"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> Mint
+                        </a>
+                      </li>
 
-                    <li><i class="fa-solid fa-check"></i> JSON</li>
+                      <li>
+                        
+                        <a
+                        id="debian"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> Debian
+                        </a>
+                      </li>
 
-                    <li><i class="fa-solid fa-check"></i> SOAP</li>
-                    <li><i class="fa-solid fa-check"></i> WireSharck</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card my-5">
-                <div class="card-header bg-primary text-center">
-                  Sistemas Operativos
-                </div>
-                <div class="card-body">
-                  <ul class="list-unstyled">
-                    <li><i class="fa-solid fa-check"></i> Windows</li>
+                      <li>
+                        
+                        <a
+                        id="kali"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> Kali
+                        </a>
+                      </li>
 
-                    <li><i class="fa-solid fa-check"></i> Mint</li>
-
-                    <li><i class="fa-solid fa-check"></i> Debian</li>
-
-                    <li><i class="fa-solid fa-check"></i> Kali</li>
-
-                    <li><i class="fa-solid fa-check"></i> Ubunto</li>
-                  </ul>
+                      <li>
+                        
+                        <a
+                        id="ubunto"
+                          class="underline"
+                        >      
+                        <i class="fa-solid fa-check"></i> Ubunto
+                      
+                        </a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
         </div>
         <div id="projects">
           <div class="container"></div>
@@ -277,30 +522,48 @@ A Webhouse é o parceiro criativo, inovador e vanguardista nos serviços e nas p
     <footer>
       <div class="container py-5">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-4 text-md-center">
             <i class="fa-solid fa-envelope"></i>
             <a href="mailto:pedroffpereira2001@gmail.com"
               >pedroffpereira2001@gmail.com</a
             >
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4 text-md-center">
             <i class="fa-brands fa-github"></i>
             <a target="_blank" href="https://github.com/Pedroffpereira"
               >https://github.com/Pedroffpereira</a
             >
+          </div> 
+          <div class="col-md-4 text-md-center">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+35932115247"
+              >
+              +35932115247
+              </a
+            >
           </div>
-          <div class="col-md-3"></div>
-          
-        </div>
-        <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-4 text-md-center">
             <i class="fa-solid fa-envelope"></i>
             <a href="mailto:pedroffpereira2001@gmail.com"
               >pedroffpereira2001@hotmail.com</a
             >
           </div>
+          <div class="col-md-4 text-md-center">
+            <i class="fa-brands fa-stack-overflow"></i>
+            <a href="https://stackoverflow.com/users/11978293/pedro-pereira"
+              >
+              https://stackoverflow.com/users/11978293/pedro-pereira
+              </a
+            >
+          </div>
+          <div class="col-md-4 text-md-center">
+            <i class="fa-brands fa-linkedin"></i>
+            <a target="_blank" href="https://www.linkedin.com/in/pedro-pereira-724933190/">
+              https://www.linkedin.com/in/pedro-pereira-724933190/
+            </a>
+          </div>
         </div>
-        <div class="row">
+        <div class="row pt-5">
           <div class="col-md-12">
             <p class="text-center">
               Made By <i class="fa-regular fa-heart"></i> Pedro Pereira
@@ -351,36 +614,63 @@ A Webhouse é o parceiro criativo, inovador e vanguardista nos serviços e nas p
     <script src="./js/wow.min.js"></script>
 
     <script>
-
-
-      window.onload = function() {
+      
+      window.onload = function () {
         Particles.init({
-          selector: '.background',
+          selector: ".background",
           connectParticles: true,
           sizeVariations: 5,
         });
       };
 
-      $(document).ready(function(){
+      $(document).ready(function () {
         new WOW().init({
-          boxClass:     'wow',      // default
-          animateClass: 'animated', // default
-          offset:       0,          // default
-          mobile:       true,       // default
-          live:         true        // default
+          boxClass: "wow", // default
+          animateClass: "animated", // default
+          offset: 0, // default
+          mobile: true, // default
+          live: true, // default
         });
-        
-          $(document).scroll(function(){
-            if($(window).scrollTop() > $(window).height()){
-              console.log("teste")
-              $("#nav").addClass('down');
-            } else {
-              console.log("falhou")
-              $("#nav").removeClass("down");
-            }
+
+        $(document).scroll(function () {
+          if ($(window).scrollTop() > $(window).height()) {
+            $("#nav").addClass("down");
+          } else {
+            $("#nav").removeClass("down");
+          }
+        });
+
+
+        $("#knolage .underline").click(function() {
+          var atag = $(this);
+          fetch("./request/request.json")
+          .then(response => {
+            return response.json();
+          }).then(function(response){
+            $.each(response, function(item){
+              if(response[item].title == atag.attr('id')) {
+                $("#staticBackdrop .modal-title").html(response[item].title)
+                $("#staticBackdrop img").attr("src", response[item].img)
+                $("#staticBackdrop p").html(response[item].text)
+                var myModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {
+                  keyboard: false
+                })
+                var modalToggle = document.getElementById('staticBackdrop') // relatedTarget
+                myModal.show(modalToggle)
+              }
+            })
           })
           
-      })
+        })
+        var myCollapsible = document.getElementById('navbarText')
+        myCollapsible.addEventListener('show.bs.collapse', function () {
+          $('.fa-bars').removeClass("fa-bars").addClass("fa-xmark")
+        })
+        myCollapsible.addEventListener('hide.bs.collapse', function () {
+          $('.fa-xmark').removeClass("fa-xmark").addClass("fa-bars")
+          
+        })
+      });
     </script>
   </body>
 </html>
