@@ -31,7 +31,7 @@
     },
     {
         "title": ".net",
-        "img": "./imgs/php.php",
+        "img": "./imgs/dotnet.png",
         "text": "O .NET Framework é uma iniciativa da empresa Microsoft, que visa uma plataforma única para desenvolvimento e execução de sistemas e aplicações. Todo e qualquer código gerado para .NET pode ser executado em qualquer dispositivo que possua um framework de tal plataforma."
     },
     {
